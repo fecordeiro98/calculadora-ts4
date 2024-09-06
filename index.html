@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de simoleons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <table>
+            <tr>
+                <td>Carreira:</td>
+                <td><select name="" id="carreira">
+                    <option value="selecione">Selecione</option>
+                    <option value="agente">Agente secreto</option>
+                    <option value="astronauta">Astronauta</option>
+                    <option value="atleta">Atleta</option>
+                    <option value="criminoso">Criminoso</option>
+                    <option value="culinaria">Culinária</option>
+                    <option value="entretenimento">Entretenimento</option>
+                    <option value="escritor">Escritor</option>
+                    <option value="guru">Guru da tecnologia</option>
+                    <option value="influenciador">Influenciador de estilos</option>
+                    <option value="negocios">Negócios</option>
+                    <option value="pintor">Pintor</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Ramo:</td>
+                <td><select name="" id="ramo">
+                    <!-- Preenchido com JavaScript -->
+                </select></td>
+            </tr>
+            <tr>
+                <td>Cargo:</td>
+                <td><select name="" id="cargo">
+                    <!-- Preenchido com JavaScript -->
+                </select></td>
+            </tr>
+            <tr class="separador">
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>C.H./dia:</td>
+                <td><input type="number" name="" id="ch" disabled></td>
+            </tr>
+            <tr>
+                <td>Valor/hora:</td>
+                <td><input type="number" name="" id="valor-hor" disabled></td>
+            </tr>
+            <tr>
+                <td>Dias/semana:</td>
+                <td><input type="number" name="" id="dias" disabled></td>
+            </tr>
+            <tr class="separador">
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Valor/dia:</td>
+                <td><input type="number" name="" id="valor-dia" disabled></td>
+            </tr>
+            <tr>
+                <td>Valor/semana:</td>
+                <td><input type="number" name="" id="valor-sem" disabled></td>
+            </tr>
+            <tr class="separador">
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Gastos fixos:</td>
+                <td><input type="number" name="" id="gastos" min="0" step="1" value="0"></td>
+            </tr>
+            <tr>
+                <td>Lucro:</td>
+                <td><input type="number" name="" id="lucro" disabled></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button onclick="calcular()">Calcular</button></td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <span>&copy; Felipe Cordeiro</span><br>
+        <span>Junho de 2024</span><br>
+        <span>v 1.0</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

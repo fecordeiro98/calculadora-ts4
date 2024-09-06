@@ -1,0 +1,22 @@
+html, select, input[type=number] {
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+select {
+    width: 290px;
+}
+input[type=number] {
+    width: 100px;
+    text-align: center;
+}
+footer {
+    margin-top: 12pt;
+}
+
+.separador {
+    height: 5px;
+}
+
+#gastos {
+    color: red;
+}
