@@ -50,3 +50,4 @@ Este código HTML é estruturado para criar uma interface de usuário para calcu
 # Importante
 
 - Contém apenas as carreiras do jogo base! Não contém os empregos de meio-período nem os freelancers.
+- Os primeiros nomes de cada ramo foram inventados por mim para evitar problemas no código (e para ficar mais divertido, claro).
