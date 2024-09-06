@@ -1,3 +1,8 @@
+# Importante
+
+- Contém apenas as carreiras do jogo base! Não contém os empregos de meio-período nem os freelancers.
+- Os primeiros nomes de cada ramo foram inventados por mim para evitar problemas no código (e para ficar mais divertido, claro).
+
 # Descrição do Código HTML
 
 Este documento HTML define uma página web para uma "Calculadora de Simoleons". Abaixo está uma explicação dos principais elementos e estruturas presentes no código:
@@ -46,8 +51,3 @@ Contém uma tabela (`<table>`) com vários campos para inserir dados e realizar 
 - A interatividade e a funcionalidade adicional são fornecidas pelo arquivo JavaScript externo.
 
 Este código HTML é estruturado para criar uma interface de usuário para calcular o valor ganho em função de diferentes carreiras e variáveis relacionadas.
-
-# Importante
-
-- Contém apenas as carreiras do jogo base! Não contém os empregos de meio-período nem os freelancers.
-- Os primeiros nomes de cada ramo foram inventados por mim para evitar problemas no código (e para ficar mais divertido, claro).
