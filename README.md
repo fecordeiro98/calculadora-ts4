@@ -51,3 +51,5 @@ Contém uma tabela (`<table>`) com vários campos para inserir dados e realizar 
 - A interatividade e a funcionalidade adicional são fornecidas pelo arquivo JavaScript externo.
 
 Este código HTML é estruturado para criar uma interface de usuário para calcular o valor ganho em função de diferentes carreiras e variáveis relacionadas.
+
+Texto gerado por inteligência artificial
