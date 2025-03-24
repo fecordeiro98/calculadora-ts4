@@ -52,5 +52,5 @@ fetch('dados.json')
 
         document.getElementById('calcular').addEventListener('click', calcular);
 
-        selecao('carreira', Object.keys(carreiras));
+        selecao('carreira', Object.keys(carreiras).map(key => nomesCarreiras[key]));
     });
