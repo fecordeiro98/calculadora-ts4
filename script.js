@@ -14,7 +14,7 @@ fetch('dados.json')
         }
 
         document.getElementById('carreira').addEventListener('change', function() {
-            const valorSelecionado1 = this.ariaValueMax;
+            const valorSelecionado1 = this.value;
             selecao('ramo', carreiras[valorSelecionado1]);
             document.getElementById('cargo').innerHTML = '';
         });
