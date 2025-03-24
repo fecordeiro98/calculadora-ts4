@@ -1,6 +1,6 @@
 # Importante
 
-- Contém apenas as carreiras do jogo base! Não contém os empregos de meio-período nem os freelancers.
+- Contém todas as carreiras do jogo base + expansões (até 24/março/2025)! Não contém os empregos de meio-período nem os freelancers.
 - Os primeiros nomes de cada ramo foram inventados por mim para evitar problemas no código (e para ficar mais divertido, claro).
 
 # Descrição do Código HTML
