@@ -1,7 +1,6 @@
-# Importante
-
-- Contém todas as carreiras do jogo base + expansões (até 24/março/2025)! Não contém os empregos de meio-período nem os freelancers.
-- Os primeiros nomes de cada ramo foram inventados por mim para evitar problemas no código (e para ficar mais divertido, claro).
+> [!IMPORTANT]
+> - Contém todas as carreiras do jogo base + expansões (até 24/março/2025)! Não contém os empregos de meio-período nem os freelancers.
+> - Os primeiros nomes de cada ramo foram inventados por mim para evitar problemas no código (e para ficar mais divertido, claro).
 
 # Descrição do Código HTML
 
@@ -9,15 +8,15 @@ Este documento HTML define uma página web para uma "Calculadora de Simoleons". 
 
 ## Estrutura do Documento
 
-- **`<!DOCTYPE html>`**: Declaração do tipo de documento HTML5.
-- **`<html lang="pt-BR">`**: Elemento raiz do HTML com o idioma definido como português do Brasil.
+- `<!DOCTYPE html>`: Declaração do tipo de documento HTML5.
+- `<html lang="pt-BR">`: Elemento raiz do HTML com o idioma definido como português do Brasil.
 
 ## Cabeça do Documento (`<head>`)
 
-- **`<meta charset="UTF-8">`**: Define a codificação de caracteres como UTF-8.
-- **`<meta name="viewport" content="width=device-width, initial-scale=1.0">`**: Configura a visualização em dispositivos móveis para garantir que a página seja exibida corretamente em diferentes tamanhos de tela.
-- **`<title>Calculadora de simoleons</title>`**: Define o título da página que aparece na aba do navegador.
-- **`<link rel="stylesheet" href="style.css">`**: Link para o arquivo de estilos CSS externo.
+- `<meta charset="UTF-8">`: Define a codificação de caracteres como UTF-8.
+- `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Configura a visualização em dispositivos móveis para garantir que a página seja exibida corretamente em diferentes tamanhos de tela.
+- `<title>Calculadora de simoleons</title>`: Define o título da página que aparece na aba do navegador.
+- `<link rel="stylesheet" href="style.css">`: Link para o arquivo de estilos CSS externo.
 
 ## Corpo do Documento (`<body>`)
 
@@ -43,7 +42,7 @@ Contém uma tabela (`<table>`) com vários campos para inserir dados e realizar 
 
 ## Scripts
 
-- **`<script src="script.js"></script>`**: Link para o arquivo JavaScript externo que contém a lógica para preencher os campos de seleção e realizar os cálculos.
+- `<script src="script.js"></script>`: Link para o arquivo JavaScript externo que contém a lógica para preencher os campos de seleção e realizar os cálculos.
 
 ## Observações
 
